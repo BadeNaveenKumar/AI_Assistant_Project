@@ -14,7 +14,7 @@ from datetime import datetime
 class AIAssistant:
     def __init__(self):
        
-        self.api_key = os.environ.get("GOOGLE_API_KEY", "AIzaSyCNwnjU5zPLsAyphMmbl50DNgPgg2sxM0c")
+        self.api_key = os.environ.get("GOOGLE_API_KEY", "use your api key")
         genai.configure(api_key=self.api_key)
 
         # Correct and supported model name1
